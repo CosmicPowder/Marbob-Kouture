@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Neutron|Oswald");
+
+body {
+    height: auto;
+    background: #CCB3A3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    width: auto;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    font: 400 1em/1.5 "Neuton";
+    color: #000000;
+    display: inline-block;
+    border: 4px double #000000;
+    border-width: 40px 0;
+    padding: 1.5em 0em;
+}
+
+p span {
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding:  0.25em 0 0.325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+    background: 
+    url("https://codetheworld.io/wp-content/uploads/2023/11/rNPwjWM-animated-text-fill.png") repeat-y;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: anim 80s linear infinite;
+}
+
+@-webkit-keyframes anim {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
